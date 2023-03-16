@@ -41,9 +41,9 @@
 						<a href="profile-edit.php">
 							<button class="mx-auto m-1 btn-sm btn btn-primary">Edit</button>
 						</a>
-						<a href="profile-delete.php">
+						<!-- <a href="profile-delete.php">
 							<button class="mx-auto m-1 btn-sm btn btn-warning text-white">Delete</button>
-						</a>
+						</a> -->
 						<a href="logout.php">
 							<button class="mx-auto m-1 btn-sm btn btn-info text-white">Logout</button>
 						</a>
@@ -58,6 +58,7 @@
 					<tr><th><i class="bi bi-person-circle"></i> First name</th><td><?=esc($row['firstname'])?></td></tr>
 					<tr><th><i class="bi bi-person-square"></i> Last name</th><td><?=esc($row['lastname'])?></td></tr>
 					<tr><th><i class="bi bi-gender-ambiguous"></i> Gender</th><td><?=esc($row['gender'])?></td></tr>
+					
 				</table>
 			</div>
 		</div>
